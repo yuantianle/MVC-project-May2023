@@ -11,18 +11,26 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
 {
-    public class JobRepository : IJobRepository
+    public class JobRepository : BaseRepository<Job>, IJobRepository
     {
-        protected readonly RecruitingDbContext _dbContext;
-        public JobRepository(RecruitingDbContext dbContext)
+
+        public JobRepository(RecruitingDbContext dbContext) : base(dbContext)
         {
-            _dbContext = dbContext;
+
         }
 
-        public async Task<List<Job>> GetPaginatedJob(int pageSize, int pageNumber)
+        public async Task<List<Job>> GetAllJobs()
         {
-            var jobs = await _dbContext.Jobs.Skip(pageSize * pageNumber).Take(pageSize).ToListAsync();
+            // go to the database and get the data
+            // EF Core with LinQ
+            var jobs = await _dbContext.Jobs.ToListAsync() ;
             return jobs;
+        }
+
+        public async Task<Job> GetJobById(int id)
+        {
+            var job = await _dbContext.Jobs.FirstOrDefaultAsync(x => x.Id == id);
+            return job;
         }
     }
 }

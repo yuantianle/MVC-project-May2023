@@ -11,11 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interviews", "Interviews", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{798EBA4F-D19B-45A0-B7CF-A624FF988FC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitingWeb", "Services\Recruiting\RecruitingWeb\RecruitingWeb.csproj", "{FEF9A05E-6B57-4786-B76E-50013FBEBF3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitingWeb", "Services\Recruiting\RecruitingWeb\RecruitingWeb.csproj", "{FEF9A05E-6B57-4786-B76E-50013FBEBF3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCode", "Services\Recruiting\ApplicationCode\ApplicationCode.csproj", "{8CB209F0-0C71-4EAC-9888-7AA01B6636C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCode", "Services\Recruiting\ApplicationCode\ApplicationCode.csproj", "{8CB209F0-0C71-4EAC-9888-7AA01B6636C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Services\Recruiting\Infrastructure\Infrastructure.csproj", "{9C29E5C6-CADB-42C8-8286-31E99F3AB836}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Services\Recruiting\Infrastructure\Infrastructure.csproj", "{9C29E5C6-CADB-42C8-8286-31E99F3AB836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruiting.API", "Services\Recruiting\Recruiting.API\Recruiting.API.csproj", "{BB0783A7-48B5-4F6B-9FA6-C97104DF6ED3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{9C29E5C6-CADB-42C8-8286-31E99F3AB836}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C29E5C6-CADB-42C8-8286-31E99F3AB836}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C29E5C6-CADB-42C8-8286-31E99F3AB836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0783A7-48B5-4F6B-9FA6-C97104DF6ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0783A7-48B5-4F6B-9FA6-C97104DF6ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0783A7-48B5-4F6B-9FA6-C97104DF6ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0783A7-48B5-4F6B-9FA6-C97104DF6ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{FEF9A05E-6B57-4786-B76E-50013FBEBF3A} = {A031D119-1B33-4425-8F65-53E95BF85CD8}
 		{8CB209F0-0C71-4EAC-9888-7AA01B6636C7} = {A031D119-1B33-4425-8F65-53E95BF85CD8}
 		{9C29E5C6-CADB-42C8-8286-31E99F3AB836} = {A031D119-1B33-4425-8F65-53E95BF85CD8}
+		{BB0783A7-48B5-4F6B-9FA6-C97104DF6ED3} = {A031D119-1B33-4425-8F65-53E95BF85CD8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41E21258-4E60-44C7-AA60-4B7C88F19839}

@@ -3179,19 +3179,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yuant\\.nuget\\packages\\": {}
+    "C:\\Users\\ytl_5\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
+      "projectUniqueName": "F:\\Antra\\5WEEKS\\Day21\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
       "projectName": "ApplicationCode",
-      "projectPath": "E:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
-      "packagesPath": "C:\\Users\\yuant\\.nuget\\packages\\",
-      "outputPath": "E:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\ApplicationCode\\obj\\",
+      "projectPath": "F:\\Antra\\5WEEKS\\Day21\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
+      "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
+      "outputPath": "F:\\Antra\\5WEEKS\\Day21\\HRM\\Services\\Recruiting\\ApplicationCode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yuant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

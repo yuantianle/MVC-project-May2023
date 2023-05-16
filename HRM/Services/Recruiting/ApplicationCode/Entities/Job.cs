@@ -26,6 +26,7 @@ namespace ApplicationCode.Entities
 
         //Foreign Key
         public int JobStatusLookUpId { get; set; }
-
+        //Navigation Property in EF Core
+        public JobStatusLookUp JobStatusLookUp { get; set; }
 }
 }

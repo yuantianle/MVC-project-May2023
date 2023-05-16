@@ -1,16 +1,18 @@
-﻿using ApplicationCode.Entities;
-using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using ApplicationCode.Entities;
+
 
 namespace ApplicationCode.Contract.Repositories
 {
-    public interface IJobRepository
+    public interface IJobRepository : IBaseRepository<Job>
     {
-        Task<List<Job>> GetPaginatedJob(int pageSize, int pageNumber);
+
+        Task<List<Job>> GetAllJobs();
+        Task<Job> GetJobById(int id);
     }
 }
