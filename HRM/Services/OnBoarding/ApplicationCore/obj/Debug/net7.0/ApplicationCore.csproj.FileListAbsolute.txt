@@ -1,0 +1,12 @@
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.AssemblyReference.cache
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
