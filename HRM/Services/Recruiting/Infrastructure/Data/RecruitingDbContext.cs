@@ -43,7 +43,6 @@ namespace Infrastructure.Data
             // we can establish the rules for candidate table
             builder.HasKey(x => x.Id);
             builder.Property(x => x.FirstName).HasMaxLength(100);
-            builder.HasIndex(x => x.Email).IsUnique();
             builder.Property(x=>x.CreateOn).HasDefaultValueSql("getdate()");
         }
     }

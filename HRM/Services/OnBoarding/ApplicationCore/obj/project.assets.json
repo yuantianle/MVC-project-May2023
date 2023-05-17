@@ -3184,11 +3184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Antra\\5WEEKS\\Day22\\HRM\\Services\\OnBoarding\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\OnBoarding\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "F:\\Antra\\5WEEKS\\Day22\\HRM\\Services\\OnBoarding\\ApplicationCore\\ApplicationCore.csproj",
+      "projectPath": "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\OnBoarding\\ApplicationCore\\ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-      "outputPath": "F:\\Antra\\5WEEKS\\Day22\\HRM\\Services\\OnBoarding\\ApplicationCore\\obj\\",
+      "outputPath": "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\OnBoarding\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",

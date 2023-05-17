@@ -3954,11 +3954,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Antra\\5WEEKS\\Day22\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj",
+      "projectUniqueName": "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj",
       "projectName": "Interviews.API",
-      "projectPath": "F:\\Antra\\5WEEKS\\Day22\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj",
+      "projectPath": "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj",
       "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-      "outputPath": "F:\\Antra\\5WEEKS\\Day22\\HRM\\Services\\Interviews\\Interviews.API\\obj\\",
+      "outputPath": "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\Interviews\\Interviews.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3975,11 +3975,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\Antra\\5WEEKS\\Day22\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "F:\\Antra\\5WEEKS\\Day22\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj"
+            "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "F:\\Antra\\5WEEKS\\Day22\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "F:\\Antra\\5WEEKS\\Day22\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj"
+            "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

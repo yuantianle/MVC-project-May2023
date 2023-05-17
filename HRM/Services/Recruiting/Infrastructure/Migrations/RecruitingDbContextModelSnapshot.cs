@@ -61,9 +61,6 @@ namespace Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Email")
-                        .IsUnique();
-
                     b.ToTable("Candidates");
                 });
 
@@ -187,7 +184,7 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("ApplicationCode.Entities.Submission", b =>
                 {
                     b.HasOne("ApplicationCode.Entities.Candidate", "Candidate")
-                        .WithMany("Submissions")
+                        .WithMany()
                         .HasForeignKey("CandidateId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -201,11 +198,6 @@ namespace Infrastructure.Migrations
                     b.Navigation("Candidate");
 
                     b.Navigation("Job");
-                });
-
-            modelBuilder.Entity("ApplicationCode.Entities.Candidate", b =>
-                {
-                    b.Navigation("Submissions");
                 });
 #pragma warning restore 612, 618
         }

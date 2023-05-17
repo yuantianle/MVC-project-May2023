@@ -17,6 +17,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IJobService, JobService>(); //constructor injection
                                                        //builder.Services.AddScoped<IJobService, JobMongoDBService>(); //constructor injection
                                                        //Inject our ConnectionString into DbContext
+builder.Services.AddScoped<ICandidateService, CandidateService>();
+
 builder.Services.AddDbContext<RecruitingDbContext>(
     options => options.UseSqlServer(
         builder.Configuration.GetConnectionString("DockerForSqlServer")//"RecruitingDbConnection"
@@ -24,6 +26,7 @@ builder.Services.AddDbContext<RecruitingDbContext>(
 );
 
 builder.Services.AddScoped<IJobRepository, JobRepository>(); //constructor injection
+builder.Services.AddScoped<ICandidateRepository, CandidateRepository>(); //constructor injection
 
 
 var app = builder.Build();
