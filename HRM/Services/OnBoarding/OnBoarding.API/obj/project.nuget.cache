@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rk9PbSe5Zye6RLUaC21ReTCcaI8R337cBjb2yripoUqnIaWFgRrGxE3BHT4XqeWnD0LqDLx3XzpCgXgeO0XDag==",
+  "dgSpecHash": "XJlWRbIjpM5ArQxDWC53J7AmKCbLug/Py0sINOpimRXBXNTeb0Kbwmc6LT21Wm/rV6WV3k64QNPd9A7xrhNaFw==",
   "success": true,
-  "projectFilePath": "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\OnBoarding\\OnBoarding.API\\OnBoarding.API.csproj",
+  "projectFilePath": "F:\\Antra\\5WEEKS\\Day24 - Docker\\HRM\\Services\\OnBoarding\\OnBoarding.API\\OnBoarding.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ytl_5\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ytl_5\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -42,6 +42,7 @@
     "C:\\Users\\ytl_5\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ytl_5\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\ytl_5\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\ytl_5\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\ytl_5\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\ytl_5\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\ytl_5\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",

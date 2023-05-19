@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "md4IvFMHUHmHwtFBOfgcGWvYBWsUuWyJZQQqGjsK57bB9neNao6eOG0jMjcRKwil3CXR/gJd0TMCkmBOYOrcRg==",
+  "dgSpecHash": "aoN4X6IljYMwtLr7PJBXlGIIzczwFFBuvFkAk/KOCDxtKzgG4X+cnBk3dZ8CFD/1oJL8Yk2kOJmpt8WMtdwpjQ==",
   "success": true,
-  "projectFilePath": "F:\\Antra\\5WEEKS\\Day23\\HRM\\Services\\OnBoarding\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "F:\\Antra\\5WEEKS\\Day24 - Docker\\HRM\\Services\\OnBoarding\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ytl_5\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ytl_5\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
