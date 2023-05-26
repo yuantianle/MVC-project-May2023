@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mLhK0o5c93LfJZtHN6qWBBrmLFWhqLPhz1yPWxe8m3cgUli6kvq3bdH5KYfjRriLXjFwsJOrroPrAP/052AvBA==",
+  "dgSpecHash": "5kp3laaculeGadmjE+5TKlhor5P1vCZE9IveLVuKMfuDdwjdxUXULo7yGNFPu7fY7Yd4qGLsA4TqeTd62iD0zg==",
   "success": true,
-  "projectFilePath": "F:\\Antra\\5WEEKS\\Day24 - Docker\\HRM\\Services\\Recruiting\\RecruitingWeb\\RecruitingWeb.csproj",
+  "projectFilePath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\RecruitingWeb\\RecruitingWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ytl_5\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ytl_5\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

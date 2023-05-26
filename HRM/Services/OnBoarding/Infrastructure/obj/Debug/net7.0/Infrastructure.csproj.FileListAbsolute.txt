@@ -13,3 +13,18 @@ F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\In
 F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
 F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 F:\Antra\5WEEKS\Day22\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\bin\Debug\net7.0\ApplicationCore.dll
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\bin\Debug\net7.0\ApplicationCore.pdb
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\OnBoarding\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
