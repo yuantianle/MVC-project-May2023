@@ -1,0 +1,42 @@
+name: Trigger auto deployment for may2023-recruiting
+
+# When this action will be executed
+on:
+  # Automatically trigger it when detected changes in repo
+  push:
+    branches: 
+      [ main ]
+    paths:
+    - 'HRM/Dockerfile.Recruiting/**'
+    - '.github/workflows/may2023-recruiting-AutoDeployTrigger-a3ab3476-3c98-441e-9adf-0ec46c1b57f4.yml'
+
+  # Allow mannually trigger 
+  workflow_dispatch:
+      
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout to the branch
+        uses: actions/checkout@v2
+
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.MAY2023RECRUITING_AZURE_CREDENTIALS }}
+
+      - name: Build and push container image to registry
+        uses: azure/container-apps-deploy-action@v1
+        with:
+          appSourcePath: ${{ github.workspace }}HRM/Dockerfile.Recruiting 
+          registryUrl: may2023cr.azurecr.io
+          registryUsername: ${{ secrets.MAY2023RECRUITING_REGISTRY_USERNAME }}
+          registryPassword: ${{ secrets.MAY2023RECRUITING_REGISTRY_PASSWORD }}
+          containerAppName: may2023-recruiting
+          resourceGroup: May2023Batch
+          imageToBuild: may2023cr.azurecr.io/may2023-recruiting:${{ github.sha }}
+          dockerfilePath: Dockerfile
+
+     
+
