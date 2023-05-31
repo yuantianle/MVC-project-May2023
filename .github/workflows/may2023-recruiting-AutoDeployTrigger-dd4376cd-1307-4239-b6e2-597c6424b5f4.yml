@@ -29,14 +29,14 @@ jobs:
       - name: Build and push container image to registry
         uses: azure/container-apps-deploy-action@v1
         with:
-          appSourcePath: ${{ github.workspace }}/HRM/Dockerfile.Recruiting 
-          registryUrl: may2023cr.azurecr.io
-          registryUsername: ${{ secrets.MAY2023RECRUITING_REGISTRY_USERNAME }}
-          registryPassword: ${{ secrets.MAY2023RECRUITING_REGISTRY_PASSWORD }}
-          containerAppName: may2023-recruiting
-          resourceGroup: May2023Batch
-          imageToBuild: may2023cr.azurecr.io/may2023-recruiting:${{ github.sha }}
-          dockerfilePath: Dockerfile
+            appSourcePath: ${{ github.workspace }}/HRM
+            registryUrl: may2023cr.azurecr.io
+            registryUsername: ${{ secrets.MAY2023RECRUITING_REGISTRY_USERNAME }}
+            registryPassword: ${{ secrets.MAY2023RECRUITING_REGISTRY_PASSWORD }}
+            containerAppName: may2023-recruiting
+            resourceGroup: May2023Batch
+            imageToBuild: may2023cr.azurecr.io/may2023-recruiting:${{ github.sha }}
+            dockerfilePath: Dockerfile.Recruiting
 
      
 
