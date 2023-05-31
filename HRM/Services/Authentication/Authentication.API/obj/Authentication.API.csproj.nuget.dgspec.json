@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Authentication\\Authentication.API\\Authentication.API.csproj": {}
+    "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Authentication\\Authentication.API\\Authentication.API.csproj": {}
   },
   "projects": {
-    "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Authentication\\Authentication.API\\Authentication.API.csproj": {
+    "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Authentication\\Authentication.API\\Authentication.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Authentication\\Authentication.API\\Authentication.API.csproj",
+        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Authentication\\Authentication.API\\Authentication.API.csproj",
         "projectName": "Authentication.API",
-        "projectPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Authentication\\Authentication.API\\Authentication.API.csproj",
+        "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Authentication\\Authentication.API\\Authentication.API.csproj",
         "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-        "outputPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Authentication\\Authentication.API\\obj\\",
+        "outputPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Authentication\\Authentication.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,9 +62,17 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[6.30.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.30.1, )"
             }
           },
           "imports": [

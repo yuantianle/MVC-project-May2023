@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Recruiting.API\\Recruiting.API.csproj": {}
+    "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Recruiting.API\\Recruiting.API.csproj": {}
   },
   "projects": {
-    "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj": {
+    "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
+        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
         "projectName": "ApplicationCode",
-        "projectPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
+        "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
         "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-        "outputPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\ApplicationCode\\obj\\",
+        "outputPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj": {
+    "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-        "outputPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Infrastructure\\obj\\",
+        "outputPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj": {
-                "projectPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj"
+              "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj": {
+                "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Recruiting.API\\Recruiting.API.csproj": {
+    "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Recruiting.API\\Recruiting.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Recruiting.API\\Recruiting.API.csproj",
+        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Recruiting.API\\Recruiting.API.csproj",
         "projectName": "Recruiting.API",
-        "projectPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Recruiting.API\\Recruiting.API.csproj",
+        "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Recruiting.API\\Recruiting.API.csproj",
         "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-        "outputPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Recruiting.API\\obj\\",
+        "outputPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Recruiting.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,11 +154,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj": {
-                "projectPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj"
+              "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj": {
+                "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj"
               },
-              "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj"
+              "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

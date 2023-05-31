@@ -2,6 +2,10 @@
 using Authentication.API.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace Authentication.API.Controllers
 {        
@@ -12,10 +16,13 @@ namespace Authentication.API.Controllers
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
 
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
+        private readonly IConfiguration _configuration;
+
+        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration configuration)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _configuration = configuration;
         }
 
         //Register
@@ -59,10 +66,44 @@ namespace Authentication.API.Controllers
             var isAuthenticated = await _userManager.CheckPasswordAsync(user, model.Password);
             if(isAuthenticated)
             {
-                return Ok("User name password valid");
+                //return Ok("User name password valid");
+                return Ok(new { token = CreateJWT(user)});
             }
+
+            // we need to create JWT token and return it to the client (SPA, iOS, Android)
+
+
             return Unauthorized("User name password is invalid");
 
+        }
+
+
+        private string CreateJWT(User user) 
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var secretKey = _configuration.GetValue<string>("SecretKey");
+            var key = Encoding.ASCII.GetBytes(secretKey);
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Expires = DateTime.UtcNow.AddDays(1),
+                Issuer = "HRM",
+                Audience = "HRM Users",
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
+                Subject = new ClaimsIdentity(new Claim[]
+                {
+                    //key value pair
+                    new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                    new Claim(JwtRegisteredClaimNames.NameId, user.Id.ToString()),
+                    new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName),
+                    new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName),
+                    new Claim("language", "english"),
+                    new Claim("location", "USA/DC"),
+                    new Claim("role", "Admin"),
+                })
+
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
         }
 
         //GetUserById

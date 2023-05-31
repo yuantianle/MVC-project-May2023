@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hQjytOZUlNxPvQdCk510F4UaisWsNOszxVANcjcr+tbz3r+mjPKUK8mkvEdDPhKHneE96adTrpo7GMcvfr0hjQ==",
+  "dgSpecHash": "k8HLS6JVeqcQZHe+WxiE5MeUG7y+pQtOuiUlP0rIQia5cy9m8aXO6o7GtwUZ/exAdc3SqpJ6eEyzSe8GCcN5YQ==",
   "success": true,
-  "projectFilePath": "F:\\Antra\\5WEEKS\\Day26 - ASP.NET Core Identity\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ytl_5\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ytl_5\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

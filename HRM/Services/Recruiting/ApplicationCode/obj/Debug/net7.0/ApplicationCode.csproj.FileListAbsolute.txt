@@ -106,3 +106,15 @@ F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\Recruiting\Applicatio
 F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\refint\ApplicationCode.dll
 F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\ApplicationCode.pdb
 F:\Antra\5WEEKS\Day26 - ASP.NET Core Identity\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\ref\ApplicationCode.dll
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\bin\Debug\net7.0\ApplicationCode.deps.json
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\bin\Debug\net7.0\ApplicationCode.dll
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\bin\Debug\net7.0\ApplicationCode.pdb
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\ApplicationCode.csproj.AssemblyReference.cache
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\ApplicationCode.GeneratedMSBuildEditorConfig.editorconfig
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\ApplicationCode.AssemblyInfoInputs.cache
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\ApplicationCode.AssemblyInfo.cs
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\ApplicationCode.csproj.CoreCompileInputs.cache
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\ApplicationCode.dll
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\refint\ApplicationCode.dll
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\ApplicationCode.pdb
+F:\Antra\5WEEKS\Day28 - Unit Test\HRM\Services\Recruiting\ApplicationCode\obj\Debug\net7.0\ref\ApplicationCode.dll

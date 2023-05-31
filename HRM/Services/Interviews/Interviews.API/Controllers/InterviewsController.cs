@@ -1,12 +1,13 @@
 ﻿using ApplicationCore.Contract.Services;
 using ApplicationCore.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Interviews.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class InterviewsController : Controller
+    public class InterviewsController : ControllerBase
     {
         private readonly IInterviewService _interviewService;
         public InterviewsController(IInterviewService interviewService)
@@ -16,6 +17,7 @@ namespace Interviews.API.Controllers
         //https://localhost:5001/api/interviews
         [Route("")]
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllInterviews()
         {
             var interviews = await _interviewService.GetAllInterviews();

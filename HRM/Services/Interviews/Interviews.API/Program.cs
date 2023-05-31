@@ -3,7 +3,10 @@ using ApplicationCore.Contract.Services;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
 using Infrastructure.Servieces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +27,21 @@ builder.Services.AddScoped<IInterviewService, InterviewService>();
 
 builder.Services.AddScoped<IInterviewRepository, InterviewRepository>();
 
+// Microsoft.AspNetCore.Authentication.JwtBearer
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = "HRM",
+            ValidAudience = "HRM Users",
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["SecretKey"]))
+        };
+    });
+
 
 var app = builder.Build();
 
@@ -35,6 +53,8 @@ var app = builder.Build();
 //}
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
