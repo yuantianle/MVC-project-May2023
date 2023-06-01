@@ -7,7 +7,7 @@ on:
     branches: 
       [ main ]
     paths:
-    - '/HRM/Services/Recruiting/**'
+    - '/HRM/Services/Recruiting/Recruiting.API/**'
     - '.github/workflows/recruiting-microservice-AutoDeployTrigger-5ce2bcbf-a19e-488a-b9c3-de20973cb857.yml'
 
   # Allow mannually trigger 
@@ -29,7 +29,7 @@ jobs:
       - name: Build and push container image to registry
         uses: azure/container-apps-deploy-action@v1
         with:
-          appSourcePath: ${{ github.workspace }}/HRM/Services/Recruiting 
+          appSourcePath: ${{ github.workspace }}/HRM/Services/Recruiting/Recruiting.API 
           registryUrl: may2023cr.azurecr.io
           registryUsername: ${{ secrets.RECRUITINGMICROSERVICE_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.RECRUITINGMICROSERVICE_REGISTRY_PASSWORD }}
