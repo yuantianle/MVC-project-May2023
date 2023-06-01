@@ -3184,11 +3184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
+      "projectUniqueName": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
       "projectName": "ApplicationCode",
-      "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
+      "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\ApplicationCode\\ApplicationCode.csproj",
       "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-      "outputPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\ApplicationCode\\obj\\",
+      "outputPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\ApplicationCode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",

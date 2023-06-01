@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj": {}
+    "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj": {}
   },
   "projects": {
-    "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj": {
+    "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-        "outputPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\ApplicationCore\\obj\\",
+        "outputPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj": {
+    "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-        "outputPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Infrastructure\\obj\\",
+        "outputPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj"
+              "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj": {
+    "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj",
+        "projectUniqueName": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj",
         "projectName": "Interviews.API",
-        "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj",
+        "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Interviews.API\\Interviews.API.csproj",
         "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-        "outputPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Interviews.API\\obj\\",
+        "outputPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Interviews.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,11 +154,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj"
+              "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj"
+              "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Interviews\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

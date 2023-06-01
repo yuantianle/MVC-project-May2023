@@ -4918,11 +4918,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Recruiting.UnitTests\\Recruiting.UnitTests.csproj",
+      "projectUniqueName": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\Recruiting.UnitTests\\Recruiting.UnitTests.csproj",
       "projectName": "Recruiting.UnitTests",
-      "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Recruiting.UnitTests\\Recruiting.UnitTests.csproj",
+      "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\Recruiting.UnitTests\\Recruiting.UnitTests.csproj",
       "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-      "outputPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Recruiting.UnitTests\\obj\\",
+      "outputPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\Recruiting.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4939,8 +4939,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj"
+            "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\Recruiting\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

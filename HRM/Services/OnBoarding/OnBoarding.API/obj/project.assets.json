@@ -4043,11 +4043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\OnBoarding\\OnBoarding.API\\OnBoarding.API.csproj",
+      "projectUniqueName": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\OnBoarding\\OnBoarding.API\\OnBoarding.API.csproj",
       "projectName": "OnBoarding.API",
-      "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\OnBoarding\\OnBoarding.API\\OnBoarding.API.csproj",
+      "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\OnBoarding\\OnBoarding.API\\OnBoarding.API.csproj",
       "packagesPath": "C:\\Users\\ytl_5\\.nuget\\packages\\",
-      "outputPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\OnBoarding\\OnBoarding.API\\obj\\",
+      "outputPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\OnBoarding\\OnBoarding.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ytl_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4064,11 +4064,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\OnBoarding\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\OnBoarding\\ApplicationCore\\ApplicationCore.csproj"
+            "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\OnBoarding\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\OnBoarding\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\OnBoarding\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "F:\\Antra\\5WEEKS\\Day28 - Unit Test\\HRM\\Services\\OnBoarding\\Infrastructure\\Infrastructure.csproj"
+            "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\OnBoarding\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "F:\\Antra\\Assignment Repo for WEEK4\\MVC-project-May2023\\HRM\\Services\\OnBoarding\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
