@@ -7,7 +7,7 @@ on:
     branches: 
       [ main ]
     paths:
-    - '../HRM/Dockerfile.Recruiting/**'
+    - '/HRM/Dockerfile.Recruiting/**'
     - '.github/workflows/may2023-recruiting-AutoDeployTrigger-c70c2303-fe81-4008-a0a6-573a44c3d5f3.yml'
 
   # Allow mannually trigger 
@@ -35,7 +35,7 @@ jobs:
           registryPassword: ${{ secrets.MAY2023RECRUITING_REGISTRY_PASSWORD }}
           containerAppName: may2023-recruiting
           resourceGroup: May2023Batch
-          imageToBuild: may2023cr.azurecr.io/may2023-recruiting:${{ github.sha }}
+          imageToBuild: may2023cr.azurecr.io/recruiting-microservice:${{ github.sha }}
           dockerfilePath: Dockerfile
 
      
