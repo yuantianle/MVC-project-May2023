@@ -7,7 +7,7 @@ on:
     branches: 
       [ main ]
     paths:
-    - '/HRM/Dockerfile.Recruiting/**'
+    - '../HRM/Dockerfile.Recruiting/**'
     - '.github/workflows/may2023-recruiting-AutoDeployTrigger-c70c2303-fe81-4008-a0a6-573a44c3d5f3.yml'
 
   # Allow mannually trigger 
