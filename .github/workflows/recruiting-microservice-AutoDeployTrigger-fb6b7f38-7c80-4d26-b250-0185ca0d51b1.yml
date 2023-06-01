@@ -7,7 +7,7 @@ on:
     branches: 
       [ main ]
     paths:
-    - '/HRM/Dockerfile.Recruiting/**'
+    - '/HRM/Services/Recruiting/**'
     - '.github/workflows/recruiting-microservice-AutoDeployTrigger-fb6b7f38-7c80-4d26-b250-0185ca0d51b1.yml'
 
   # Allow mannually trigger 
