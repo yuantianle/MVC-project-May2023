@@ -17,7 +17,7 @@ namespace Interviews.API.Controllers
         //https://localhost:5001/api/interviews
         [Route("")]
         [HttpGet]
-        [Authorize]
+       
         public async Task<IActionResult> GetAllInterviews()
         {
             var interviews = await _interviewService.GetAllInterviews();

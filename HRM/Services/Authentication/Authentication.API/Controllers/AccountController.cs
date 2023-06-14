@@ -94,14 +94,14 @@ namespace Authentication.API.Controllers
         private string CreateJWT(User user) 
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var secretKey = _configuration.GetValue<string>("SecretKey");
-            var key = Encoding.UTF8.GetBytes(secretKey);
+            var secretKey = Encoding.UTF8.GetBytes(_configuration["SecretKey"] ?? string.Empty);
+           // var key = Encoding.UTF8.GetBytes(secretKey);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Expires = DateTime.UtcNow.AddDays(1),
                 Issuer = "HRM",
                 Audience = "HRM Users",
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(secretKey), SecurityAlgorithms.HmacSha256Signature),
                 Subject = new ClaimsIdentity(new Claim[]
                 {
                     //key value pair
