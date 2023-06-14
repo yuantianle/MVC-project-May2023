@@ -6,6 +6,7 @@ using Infrastructure.Servieces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,11 +16,37 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    // Config swagger to have authorization button
+    var scheme = new OpenApiSecurityScheme()
+    {
+        Description = "JWT Authorization header using the Bearer scheme. e.g. Bearer xxxxx",
+        Reference = new OpenApiReference
+        {
+            Type = ReferenceType.SecurityScheme,
+            Id = "Authorization"
+        },
+        Scheme = "Authorization",
+        BearerFormat = "JWT",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+    };
+
+    c.AddSecurityDefinition("Authorization", scheme);
+
+    var requirement = new OpenApiSecurityRequirement()
+    {
+        [scheme] = new List<string>()
+    };
+
+    c.AddSecurityRequirement(requirement);
+});
 
 builder.Services.AddDbContext<InterviewsDbContext>(
     options => options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DockerForSqlServer")//"RecruitingDbConnection"
+        builder.Configuration.GetConnectionString("DockerForSqlServer")//"AzureConnector""RecruitingDbConnection"
     )
 );
 
@@ -33,12 +60,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateIssuerSigningKey = true,
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateIssuerSigningKey = false,
             ValidIssuer = "HRM",
             ValidAudience = "HRM Users",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["SecretKey"]))
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["SecretKey"]??throw new Exception()))
         };
     });
 
@@ -58,8 +85,9 @@ app.UseAuthentication();
 
 app.UseAuthorization();
 
+//var angularURL = Environment.GetEnvironmentVariable("angularURL");
 //app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
-app.UseCors(policy => policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader().AllowCredentials());
+//app.UseCors(policy => policy.WithOrigins(angularURL).AllowAnyMethod().AllowAnyHeader().AllowCredentials());
 
 app.MapControllers();
 

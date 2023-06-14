@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Services\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.API", "Services\Authentication\Authentication.API\Authentication.API.csproj", "{340C57F6-260B-45FF-A7A7-66828AF15234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruiting.UnitTests", "Services\Recruiting\Recruiting.UnitTests\Recruiting.UnitTests.csproj", "{30EBBE92-6A65-46DD-B441-A52BD746795F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recruiting.UnitTests", "Services\Recruiting\Recruiting.UnitTests\Recruiting.UnitTests.csproj", "{30EBBE92-6A65-46DD-B441-A52BD746795F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

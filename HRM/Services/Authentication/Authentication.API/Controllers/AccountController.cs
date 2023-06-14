@@ -45,11 +45,24 @@ namespace Authentication.API.Controllers
             var result = await _userManager.CreateAsync(user, model.Password);
             if (!result.Errors.Any())
             {
-                return CreatedAtRoute("GetUser", new {controller = "account", id = user.Id });
+                return CreatedAtRoute("GetUser", new {controller = "account", id = user.Id }, value: "Registration Complete!");
             }
 
             return BadRequest(result.Errors.Select(e=>e.Description).ToList());
         }
+
+        //GetUserById
+        [HttpGet("{id}", Name = "GetUser")]
+        public async Task<IActionResult> GetUser(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if(user == null)
+            {
+                return NotFound("Can't find the user with the input ID.");
+            }
+            return Ok(user);
+        }
+
         //Login
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginModel model)
@@ -58,7 +71,7 @@ namespace Authentication.API.Controllers
             {
                 return BadRequest(new {error = "Please check email/password format"});
             }
-            var user = await _userManager.FindByEmailAsync(model.Email);
+            var user = await _userManager.FindByNameAsync(model.Email);
             if(user == null)
             {
                 return BadRequest("Username does not exist");
@@ -82,7 +95,7 @@ namespace Authentication.API.Controllers
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var secretKey = _configuration.GetValue<string>("SecretKey");
-            var key = Encoding.ASCII.GetBytes(secretKey);
+            var key = Encoding.UTF8.GetBytes(secretKey);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Expires = DateTime.UtcNow.AddDays(1),

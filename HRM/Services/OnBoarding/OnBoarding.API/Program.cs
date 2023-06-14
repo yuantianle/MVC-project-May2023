@@ -20,7 +20,7 @@ builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 
 builder.Services.AddDbContext<OnBoardingDbContext>(
     options => options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DockerForSqlServer")//"RecruitingDbConnection"
+        builder.Configuration.GetConnectionString("AzureConnector")//DockerForSqlServer"RecruitingDbConnection"
     )
 );
 
@@ -39,8 +39,9 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+var angularURL = Environment.GetEnvironmentVariable("angularURL");
 //app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
-app.UseCors(policy => policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader().AllowCredentials());
+app.UseCors(policy => policy.WithOrigins(angularURL).AllowAnyMethod().AllowAnyHeader().AllowCredentials());
 
 app.MapControllers();
 

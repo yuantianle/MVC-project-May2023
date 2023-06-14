@@ -34,3 +34,15 @@ F:\Antra\5WEEKS\Day27\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\A
 F:\Antra\5WEEKS\Day27\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
 F:\Antra\5WEEKS\Day27\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
 F:\Antra\5WEEKS\Day27\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.AssemblyReference.cache
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+F:\Antra\Assignment Repo for WEEK4\MVC-project-May2023\HRM\Services\Interviews\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll

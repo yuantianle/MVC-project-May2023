@@ -37,6 +37,12 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
+
+//var angularURL = Environment.GetEnvironmentVariable("angularURL");
+//app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+//app.UseCors(policy => policy.WithOrigins(angularURL, "https://delightful-water-0beca3e0f.3.azurestaticapps.net").AllowAnyMethod().AllowAnyHeader().AllowCredentials());
+
 app.UseAuthorization();
 
 app.MapControllers();
